@@ -3,6 +3,7 @@ import sys
 import re
 import shutil
 import lzma
+import random
 from lang import message
 
 
@@ -25,7 +26,8 @@ def parse(para, prepare_answer_sheets, standard_answer, compiler, language):
             fail_flag = False;
             for i in range(5):
                 print("$$$$$$$$$$$ Test {0}/5 $$$$$$$$$$$".format(i+1))
-                res = check(compiler, prepare_answer_sheets(), standard_answer, language, pattern)
+                answer_sheets = prepare_answer_sheets()
+                res = check(compiler, answer_sheets, standard_answer, language, pattern)
                 if res == False:
                     fail_flag = True
             print(message[language+'5次验证通过']) if res else print(message[language+'5次验证失败'])
