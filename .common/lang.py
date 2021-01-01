@@ -9,6 +9,7 @@ message['cn验证错误'] = '✗✗✗✗✗✗结果验证错误！✗✗✗✗
 message['cn标准答案'] ='\t标准答案：'
 message['cn5次验证通过'] = '\n ^_^  通过!'
 message['cn5次验证失败'] = '\n T_T  失败!'
+message['en重置警告'] = '本题所有源文件将被删除\n请确认已做好备份\n输入Y继续：'
 message['cn无效命令'] = '命令参数无效'
 message['cn帮助'] = '''
 无参数运行此python脚本以判定程序输出是否正确
@@ -27,6 +28,7 @@ message['en验证错误'] = '✗✗✗✗✗✗ Wrong! ✗✗✗✗✗✗\n\tOut
 message['en标准答案'] ='\tStandard output:'
 message['en5次验证通过'] = '\n ^_^  Passed!'
 message['en5次验证失败'] = '\n T_T  Failed!'
+message['en重置警告'] = 'The current souce files will be deleted.\nMake sure you have saved everything elsewhere.\nEnter Y to continue:'
 message['en无效命令'] = 'Parameter not available!'
 message['en帮助'] = '''
 Run this script to judge your code according to the standard.

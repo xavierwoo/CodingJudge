@@ -18,7 +18,8 @@ def main(path, argv):
 def parse(para, prepare_answer_sheets, standard_answer, compiler, language):
     if len(para) > 1:
         if para[1] == 'reset':
-            reset(prepare_answer_sheets())
+            user_input = input(message[language+'重置警告'])
+            reset(prepare_answer_sheets()) if user_input == "Y" else None
         elif para[1] == 'check5':
             pattern = re.compile(r'/\*' + message[language+'作答区域T'] + '\*/([\s|\S|\n]+)/\*' + message[language+'作答区域B'] + '\*/')
             fail_flag = False;
