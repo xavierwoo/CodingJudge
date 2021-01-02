@@ -3,7 +3,7 @@ message = dict()
 message['cn作答区域T'] = '⬇︎请在此区域内作答⬇︎'
 message['cn作答区域B'] = '⬆︎请在此区域内作答⬆︎'
 message['cn坏答卷提示'] = '请不要删除文件中的原有注释，也不要更改答题区域之外的代码！\n可以使用命令\n python judge.py reset\n重置本题 '
-message['cn编译错误'] = '编译错误！'
+message['cn编译错误'] = '未能生成可执行文件！'
 message['cn验证正确'] = '✓✓✓✓✓✓ 结果验证正确！✓✓✓✓✓✓\n输出：'
 message['cn验证错误'] = '✗✗✗✗✗✗ 结果验证错误！✗✗✗✗✗✗\n\t你的输出：'
 message['cn标准答案'] ='\t标准答案：'
@@ -22,7 +22,7 @@ help\t\t打印此帮助信息
 message['en作答区域T'] = '⬇︎Please answer within this area⬇︎'
 message['en作答区域B'] = '⬆︎Please answer within this area⬆︎'
 message['en坏答卷提示'] = "Please don't remove the comments in the file. And please type your answer within the answer area.\nYou can use the command\n python judge.py reset\nto reset this question."
-message['en编译错误'] = 'Compiling error!'
+message['en编译错误'] = 'Failed to produce the executable file!'
 message['en验证正确'] = '✓✓✓✓✓✓ Correct! ✓✓✓✓✓✓\nOutput:'
 message['en验证错误'] = '✗✗✗✗✗✗ Wrong! ✗✗✗✗✗✗\n\tOutput from your code:'
 message['en标准答案'] ='\tStandard output:'
