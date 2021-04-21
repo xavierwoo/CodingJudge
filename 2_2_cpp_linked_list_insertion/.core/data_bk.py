@@ -4,8 +4,6 @@ compiler = 'g++'
 
 language = 'cn'
 
-answer_sheets = dict()
-
 answer_sheets_bk = dict()
 answer_sheets_bk['main.cpp'] = '''
 #include<iostream>
@@ -99,6 +97,7 @@ def prepare_answer_sheets():
     insert_code.append('\t}')
     insert_code = '\n'.join(insert_code)
 
+    answer_sheets = dict()
     answer_sheets['main.cpp'] = answer_sheets_bk['main.cpp'].replace('@rand@', insert_code, 1)
     
     return answer_sheets

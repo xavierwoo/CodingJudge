@@ -40,9 +40,9 @@ int main(){
 
 Node* create_linked_list(){
 
-	Node* head = new Node(99, nullptr);
+	Node* head = new Node(94, nullptr);
 	Node* curr = head;
-	for(int i=100; i<105; ++i){
+	for(int i=95; i<101; ++i){
 		curr->next = new Node(i, nullptr);
 		curr = curr->next;
 	}

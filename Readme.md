@@ -16,6 +16,8 @@ Otherwise, check the following resources to see how to install GCC.
 
 #### Window
 http://www.mingw.org
+or
+https://jmeubank.github.io/tdm-gcc/
 
 #### macOS
 Install XCode from the Mac app store.
@@ -35,6 +37,11 @@ Type the command
 ```
 python
 ```
+Or on some platforms the command may be 
+```
+py
+```
+
 in the cmd window (or terminal).
 If the messages similar to the following appears, you are good to go (It may differ from different platforms, but the python version and the '>>>' mark should appear).
 ```
@@ -79,6 +86,10 @@ To check whether you solved it correctly, use "cd" command in cmd window to set 
 Then enter
 ```
 python judge.py
+```
+or
+```
+py judge.py
 ```
 If the environment is properly set, code evaluation messages will appear to say whether you have correctly solved the question.
 
